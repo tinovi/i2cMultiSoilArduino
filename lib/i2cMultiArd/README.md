@@ -22,6 +22,6 @@ This sample software demonstrates how to read data from sensor.
 
 Sensor default I2C address is 101.
 
-Download Arduino library from [there.](https://github.com/tinovi/i2cMultiSm)
+Download Arduino library from [there.](https://github.com/tinovi/i2cMultiSoilArduino/tree/master/lib/i2cMultiArd)
 
 Check out our shop [there.](https://tinovi.com/tinovi-shop/)
