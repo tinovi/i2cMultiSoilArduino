@@ -109,7 +109,7 @@ void SVMULTI::getData(soil_ret_t *data){
   getRaw(&vals);
   for(int a=0;a<MULTI_ZONES;a++){
 		  data->dp[a] = vals.dp[a]/100.0;
-		  data->vwc[a] = (4.3e-6 * pow(data->dp[a],3) - 5.5e-4*pow(data->dp[a],2) + 2.92e-2*data->dp[a] - 5.3e-2);
+		  data->vwc[a] = (4.3e-6 * pow(data->dp[a],3) - 5.5e-4*pow(data->dp[a],2) + 2.92e-2*data->dp[a] - 5.3e-2)* 100.0;
 	}
 	for(int a=0;a<MULTI_TEMPS;a++){
 		  data->temp[a] = vals.temp[a]/100.0;
